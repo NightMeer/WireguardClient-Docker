@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 RUN apt-get update && apt-get upgrade -y  \
-    && apt install -y iproute2 wireguard openresolv wireguard-dkms
-RUN apt-get install curl iptables -y
+    && apt install -y iproute2 wireguard openresolv wireguard-dkms curl iptables
+
 VOLUME ["/etc/wireguard"]
 
 COPY ./startup.sh /startup.sh
