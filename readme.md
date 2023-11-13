@@ -1,6 +1,6 @@
 Wireguard Client Docker
 
-To bypass CGNat or DS-Lite
+The main Reason for this Docker is to bypass CGNat/DS-Lite see more: [here](https://github.com/NightMeer/Bypass-CGNAT)
 
 Please download the [wg0.conf](https://raw.githubusercontent.com/NightMeer/WireguardClient-Docker/main/wg0.conf) edit the values and start the Docker
 
